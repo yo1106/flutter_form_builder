@@ -1,4 +1,3 @@
-/*
 import 'dart:async';
 import 'dart:ui' as ui;
 
@@ -313,12 +312,11 @@ class _FormBuilderDateTimePickerState
   }
 
   // Hack to avoid manual editing of date - as is in DateTimeField library
-  */
-/*Future<void> _handleFocus() async {
+  Future<void> _handleFocus() async {
     if (effectiveFocusNode.hasFocus) {
       _textFieldController.clear();
     }
-  }*/ /*
+  }
 
 
   DateFormat _getDefaultDateTimeFormat() {
@@ -478,4 +476,3 @@ class _FormBuilderDateTimePickerState
     _textFieldController.text = val == null ? '' : _dateFormat.format(val);
   }
 }
-*/
